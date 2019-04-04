@@ -8,12 +8,14 @@ html, body {
 }
 
 /*Change index.html tags*/
+
 #load{
   width:100%;
   height:100%;
   position:fixed;
   z-index:9999;
-  background:url("https://i.gyazo.com/fd40b9ed7d0ba4b704f7263741094eb8.gif") no-repeat center;
+  background:url("https://cdn.dribbble.com/users/762028/screenshots/2316301/preload.gif") no-repeat center;
+  background-color: #E93976;
 }
 
 #spotify-area {
@@ -36,8 +38,8 @@ html, body {
 }
 
 #spotify-logo {
-  width: 100px;
-  transform: perspective(1px) translateY(35%);
+  width: 23%;
+  transform: perspective(1px) translateY(30%);
 }
 
 #lyrics-area {
@@ -50,40 +52,136 @@ html, body {
 }
 
 #lyrics-nav {
-  background-color: #D4D154;
+  background-color: #A60857;
   width: 100%;
   height: 10%;
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
   text-align: center;
-  box-shadow: 0px 4px #9C9A3E;
+  box-shadow: 0px 4px #630534;
 }
 
-#genius-logo {
-  width: 120px;
-  transform: perspective(1px) translateY(25%);
+#musixmatch-logo {
+  width: 37%;
+  transform: perspective(1px) translateY(30%);
 }
+
+/*test css*/
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+*, *:before, *:after {
+  font-family: 'Fredoka One', cursive !important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+.jumbotron{
+  background-image: url("http://thumbs.dreamstime.com/x/retro-s-seamless-pattern-background-vintage-memphis-fashion-style-illustration-ideal-fabric-design-paper-print-website-57384167.jpg");
+  color: white;
+}
+
+.jumbotron h1{
+  margin: auto;
+  transform: rotate(10deg);
+  font-size: 350%!important;
+  padding: 2%;
+  border: 1px solid white;
+  width: 50%;
+  border-radius: 80%;
+  background-color: orangered;
+  color: white !important;
+}
+.triangle{
+  width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 50px solid transparent;
+	position: relative;
+  margin-left: 40%;
+  transform: rotate(10deg);
+	border-top: 60px solid orangered;
+  margin-top: -1.8%;
+}
+#ghost{
+  opacity: 0;
+  display: none;
+ }
+
+h1{
+  font-family: 'Fredoka One', cursive !important;
+  text-align: center;
+}
+
+input{
+  width: 25%;
+  height: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+
+button{
+  width: 25%;
+  height: 45px;
+  font-size: 1.25em;
+  border: 1px solid grey;
+  border-radius: 2%;
+}
+
+button:hover{
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+}
+
+#searchArea{
+  text-align: center;
+}
+
+img{
+  float: left;
+  margin-right: 10%;
+  margin-left: 25%;
+}
+
+p{
+  margin-right: 5%;
+  font-family: sans-serif;
+}
+
+#lyrics{
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
+
+
 
 @media Screen and (min-width: 500px) {
   #spotify-area {
-    float: right;
-    margin-top: 5%;
+    position: fixed;
+    top: 0;
+    margin-top: 1%;
+    margin-left: 66.5%;
     width: 30%;
     height: 40vh;
-    transform: perspective(1px) translateX(-2%);
   }
 
   #spotify-nav {
-    height: 18%;
+    height: 20%;
   }
 
   #spotify-logo {
-    width: 120px;
-    transform: perspective(1px) translateY(35%);
+    width: 27%;
+    transform: perspective(1px) translateY(10%);
   }
 
   #lyrics-area {
     float: left;
+    margin-top: 1%;
     width: 65%;
     height: 110vh;
     margin-bottom: 4%;
@@ -91,10 +189,11 @@ html, body {
   }
 
   #lyrics-nav {
-    height: 18%;
+    height: 12%;
   }
 
-  #genius-logo {
-    width: 150px;
+  #musixmatch-logo {
+    width: 30%;
+    transform: perspective(1px) translateY(20%);
   }
 }

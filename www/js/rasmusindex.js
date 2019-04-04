@@ -1,5 +1,12 @@
-$('.ml2').each(function(){
-  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+$(window).scroll(function(e){
+  var $el = $('#Spotify-area');
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  if ($(this).scrollTop() > 200 && !isPositionFixed){
+    $el.css({'position': 'fixed', 'top': '0px'});
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+    $el.css({'position': 'static', 'top': '0px'});
+  }
 });
 
 anime.timeline({loop: true})
