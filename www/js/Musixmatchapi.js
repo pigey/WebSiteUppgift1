@@ -6,6 +6,7 @@ document.getElementById("lyrics").textContent = "";
     type: "GET",
     data: {
         apikey:"e087c8d65e867ab873af1f18faed98a4",
+        //variabel för artist
         q_artist: artistSearch,
         format:"jsonp",
         callback:"jsonp_callback"
@@ -15,24 +16,11 @@ document.getElementById("lyrics").textContent = "";
     jsonpCallback: 'jsonp_callback',
     contentType: 'application/json',
     success: function(data) {
-        console.log(data);
-        console.log(data.message.body.track_list[0].track.album_coverart_350x350);
-        console.log(data.message.body.track_list[0].track.lyrics_id);
-        var rand = data.message.body.track_list[Math.floor(Math.random() * data.message.body.track_list.length)];
-        console.log(rand.track.track_id);
-        var thisTrack = (rand.track.track_id);
-        var thisPic = rand.track.album_coverart_350x350;
-        console.log(thisPic);
-
         var p = document.createElement("p");
         p.textContent = thisTrack;
         p.id = thisTrack;
 
-        var img = document.createElement("img");
-        img.setAttribute("src",thisPic);
-
         document.getElementById("lyrics").appendChild(p).style.opacity = 0;
-        document.getElementById("lyrics").appendChild(img);
         document.getElementById("ghost").click();
 
     },
