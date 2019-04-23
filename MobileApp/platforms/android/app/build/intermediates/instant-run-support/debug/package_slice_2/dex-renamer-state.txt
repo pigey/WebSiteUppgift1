@@ -1,4 +1,0 @@
-#Fri Apr 05 10:17:15 CEST 2019
-base.0=C\:\\Users\\rasmus.dahlberg\\MobileApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1162
-path.0=classes.dex
-renamed.0=classes.dex
