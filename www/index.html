@@ -45,27 +45,27 @@
         </div>
       </div>
 
-        <div id="lyrics-area">
-          <div id="lyrics-nav">
-            <img id="musixmatch-logo" src="img/musixmatch-logo.png" alt="ERROR LOADING PICTURE">
-          </div>
-
-          <div id="searchArea">
-  		      <input id="artistSearch" placeholder="Type an Artist" /><br><br>
-  		      <button onclick="getLyrics()">Get Me My Lyrics!</button>
-  		      <button id="ghost" onclick="getLyricsNow()">Ghost</button>
-  	      </div>
-
-  	       <div id="lyrics">
-            <p id="testp"></p>
-           </div>
-        </div>
-
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 
         <script type="text/javascript" src="js/Lyricslibrary.js"></script>
         <script type="text/javascript" src="js/Musixmatchapi.js"></script>
+        <div id="lyrics-area">
+          <div id="lyrics-nav">
+            <img id="musixmatch-logo" src="img/musixmatch-logo.png" alt="ERROR LOADING PICTURE">
+          </div>
+
+          <!--<div id="searchArea">
+  		      <input id="artistSearch" placeholder="Type an Artist" /><br><br>
+  		      <button onclick="getLyrics()">Get Me My Lyrics!</button>
+  		      <button id="ghost" onclick="getLyricsNow()">Ghost</button>
+  	      </div>-->
+
+  	       <div id="lyrics">
+            <p id="lyricsText"></p>
+           </div>
+
+        </div>
     </body>
 </html>
 
