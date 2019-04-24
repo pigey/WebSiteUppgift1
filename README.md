@@ -11,3 +11,15 @@ För att enbart skaffa appen så finns det en **.APK** fil i '\Android APK' som 
 
 ## Testa koden själv i **Android Studio**
 För att få tag på design koden och testa det i Android Studio så finns det en **www** folder i `\Design app` som behövs läggas in i tex: `C:\Users\rasmus.dahlberg\MobileApp\platforms\android\app\src\main\assets`
+
+# Spotify API
+
+1. Extrahera filerna från **.RAR filen** in i tex: `C:\Users\rasmus.dahlberg\MobileApp\platforms`
+
+2. Starta **Android Studio** programet
+
+3. Öpnna en **Terminal** och skriv in den följande koden: `node auth-server/authorization_code/app.js`
+
+4. Öppna en till **Terminal** och gå in i **client foldern** genom att skriva in det följande: `cd client`
+
+5. För att sedan **starta** React servern så skriver du in: `npm start`
