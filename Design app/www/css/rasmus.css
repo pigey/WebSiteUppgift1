@@ -8,7 +8,6 @@ html, body {
 }
 
 /*Change index.html tags*/
-
 #load{
   width:100%;
   height:100%;
@@ -66,7 +65,7 @@ html, body {
   transform: perspective(1px) translateY(30%);
 }
 
-/*test css*/
+/*musixmatch css*/
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 
 *, *:before, *:after {
