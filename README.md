@@ -10,11 +10,11 @@ Det kommer vara två delar med denna app då den första delen är för designen
 För att enbart skaffa appen så finns det en **.APK** fil i '\Android APK' som endast behövs för att installera appen på din Android mobil.
 
 ## Testa koden själv i **Android Studio**
-För att få tag på design koden och testa det i Android Studio så finns det en **www** folder i `\Design app` som behövs läggas in i tex: `C:\Users\rasmus.dahlberg\MobileApp\platforms\android\app\src\main\assets`
+För att få tag på design koden och testa det i Android Studio så finns det en **www** folder i `\Design app` som behövs läggas in i tex: `C:\Users\användarnamn\APPnamn\platforms\android\app\src\main\assets`
 
 # Spotify API
 
-1. Extrahera filerna från **.RAR filen** in i tex: `C:\Users\rasmus.dahlberg\MobileApp\platforms`
+1. Extrahera filerna från **.RAR filen** in i tex: `C:\Users\användarnamn\APPnamn\platforms`
 
 2. Starta **Android Studio** programet
 
